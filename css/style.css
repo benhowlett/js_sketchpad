@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	font-family: "Open Sans";
+	background-color: #BBBEEE;
+	display: block;
+}
+
+.header {
+	height: 75px;
+	margin-top: 0;
+	background-color: black;
+	color: white;
+}
+
+.header h1 {
+	margin-left: 20px;
+	margin-top: 0;
+	padding-top: 15px;
+	font-weight: 400;
+}
+
+.container {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container button {
+	display: block;
+	width: 75px;
+	height: 25px;
+	margin: 10px auto; 
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.container h2 {
+	text-align: center;
+}
+
+.sketchpad {
+	display: flex;
+	flex-wrap: wrap;
+	width: 780px;
+	height: 780px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px ridge #6568D5; 
+	background-color: white;
+}
+
+#inputRow {
+	display: flex;
+	flex-wrap: no-wrap;
+	width: 780px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+#inputRow p {
+	text-align: center;
+	margin: 3px 3px 0 auto;
+	font-weight: bold;
+
+}
+
+#inputRow input {
+	width: 40px;
+	text-align: center;
+	margin: 0 auto 0 3px;
+	font-size: 18px;
+}
